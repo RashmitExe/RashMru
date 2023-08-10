@@ -1,0 +1,258 @@
+* {
+    padding-left: 4px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: lavenderblush;
+}
+
+.bro{
+    float: right;
+    margin-top: -33px;
+}
+
+.sis{
+    float: left;
+    margin-left: 0px;
+}
+
+.h1-img {
+    height: 120px;
+    width: 120px;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.centre {
+    text-align: center;
+}
+
+
+h1>p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline;
+    background-color: pink;
+}
+
+.circle-img {
+    display: inline-block;
+    height: 315px;
+    width: 315px;
+    border-radius: 50%;
+    margin-top: -42px;
+    margin-bottom: 25px;
+}
+
+img {
+    display: inline;
+    height: 390px;
+    width: 390px;
+}
+
+.brown{
+    background-color: bisque;
+}
+
+.h1-background {
+    background-color: purple;
+}
+
+div>p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+div h2 {
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+footer>p {
+    background-color: purple;
+}
+
+footer a {
+    color: crimson;
+    background-color: pink;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+li {
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: crimson;
+    margin-left: 20px;
+}
+
+div h1 {
+    font-size: 3rem;
+}
+
+h1 span {
+    color: red;
+    background-color: pink;
+}
+
+ul {
+    margin-top: -35px;
+    margin-left: 15px;
+    margin-bottom: -25px;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h3 {
+    color: darksalmon;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    font-size: 3rem;
+}
+
+div div.centre {
+    color: cornflowerblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+
+}
+
+
+ol>div>p {
+    margin-top: 20px;
+    font-size: 2.3rem;
+    display: flex;
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.danger {
+    display: inline-flex;
+    height: 450px;
+    width: 450px;
+    margin-bottom: 200px;
+    border-radius: 50%;
+    margin-top: -100px;
+}
+
+.earth {
+    height: 500px;
+    width: 600px;
+    margin-left: 180px;
+    margin-top: 45px;
+
+}
+
+
+@media (min-width:375px) and (max-width:915px) {
+
+
+    .bro{
+        float: right;
+        margin-top: -50px;
+    }
+    
+    .sis{
+        margin-top: 35px;
+        float: left;
+        margin-left: 0px;
+    }
+
+
+    div>p {
+        font-size: 1.75rem;
+    }
+
+    .h1-img {
+        height: 64px;
+        width: 64px;
+        background-color: purple;
+        border-radius: 50%;
+        margin-left: -4px;
+
+    }
+
+    h1>p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        display: inline;
+        background-color: pink;
+        font-size: 1.14rem;
+        margin-right: 69px;
+        margin-bottom: 20px;
+        
+    }
+
+    .circle-img {
+        display: inline-flex;
+        height: 169px;
+        width: 169px;
+        border-radius: 50%;
+        margin-top: -30px;
+        margin-bottom: 10px;
+    }
+    
+
+    img {
+        display: inline-flex;
+        height: 160px;
+        width: 160px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        color: darksalmon;
+        margin-bottom: -5px;
+        margin-top: -0px;
+        font-size: 2.24rem;
+    }
+
+    ol>div>p {
+        margin-top: 25px;
+        font-size: 2.17rem;
+        display: inline-flex;
+        margin-bottom: 5px;
+        color: blueviolet;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    ul {
+        margin-top: 10px;
+        display: inline-flex;
+        flex-direction: column;
+        margin-left: 15px;
+        margin-bottom: -50px;
+        font-size: 2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .danger {
+        margin-top: 30px;
+        display: inline-flex;
+        height: 300px;
+        width: 300px;
+        margin-bottom: 200px;
+        border-radius: 50%;
+        margin-left: 10px;
+        
+    }
+
+    .earth {
+        display: inline-flex;
+        height: 310px;
+        width: 310px;
+        margin-top: 400px;
+        margin-left: -310px;
+
+    }
+
+    footer {
+        clear: both;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}
